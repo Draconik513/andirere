@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
-import vidioWishes from "../assets/videos/Wishes.jpg";
+import Wishes from "../assets/images/Wishes.jpg";
 
 const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
@@ -30,7 +30,7 @@ Aku cinta km, bubub. Hari ini, besok, sampe kapanpun 💞. Makasih udah selalu m
 
         <div className="mb-8">
           <img
-            src={vidioWishes} // ganti vidioWishes dengan nama file gambar kalau perlu
+            src={Wishes} // ganti vidioWishes dengan nama file gambar kalau perlu
             alt="Ucapan"
             className="w-full max-w-md mx-auto rounded-lg shadow-xl"
           />
